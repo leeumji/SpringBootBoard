@@ -1,15 +1,12 @@
 package sty.s01.demo.common;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 import org.springframework.stereotype.Component;
 
-@Component
 @Getter
 @Setter
 @ToString
+@NoArgsConstructor
 public class RestResponse<T> {
 
     @Getter
